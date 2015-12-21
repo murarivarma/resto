@@ -1,0 +1,47 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+
+#home {
+  height: 55.6em; }
+  #home nav {
+    background-color: transparent;
+    border-color: transparent; }
+    #home nav a {
+      color: black;
+      font-family: "Montserrat", sans-serif; }
+  #home .business-name {
+    font-family: "Pacifico", cursive;
+    font-size: 3em; }
+  #home .carousel-start {
+    position: relative; }
+  #home .tasty-img .tasty {
+    position: absolute;
+    top: 11em;
+    left: 31em; }
+  #home .tasty-img .tasty-data {
+    position: absolute;
+    top: 32em;
+    left: 36.5em; }
+  #home .tasty-img .tasty-data-left {
+    position: absolute;
+    top: 32.3em;
+    left: 20em; }
+  #home .tasty-img .tasty-data-right {
+    position: absolute;
+    top: 32.3em;
+    left: 76em; }
+
+/*# sourceMappingURL=app.css.map */
