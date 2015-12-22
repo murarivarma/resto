@@ -3,6 +3,7 @@
   //background-image: url(../images/fresh-fruit.jpg);
   //background-repeat: no-repeat;
   //background-size: cover;
+  overflow-x: hidden;
   height: 55.6em;
   nav {
     //position: relative;
@@ -20,6 +21,14 @@
 
    .carousel-start {
      position: relative;
+
+     .carousel-indicators {
+       left: 92%;
+       .active {
+         color: #FFF;
+         border: 2px solid black;
+       }
+     }
    }
   .tasty-img {
     .tasty {
