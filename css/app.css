@@ -99,7 +99,6 @@ time, mark, audio, video {
 #ingredients {
   overflow-x: hidden;
   overflow-y: hidden;
-  border-top: 1px solid red;
   height: 451.667px; }
   #ingredients .ingredient2-image {
     position: relative; }
