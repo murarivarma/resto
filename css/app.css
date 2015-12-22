@@ -16,6 +16,7 @@ time, mark, audio, video {
 
 #home {
   overflow-x: hidden;
+  overflow-y: hidden;
   height: 55.6em; }
   #home nav {
     background-color: transparent;
@@ -94,5 +95,27 @@ time, mark, audio, video {
         position: absolute;
         bottom: 38vh;
         right: 0vh; }
+
+#ingredients {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-top: 1px solid red;
+  height: 451.667px; }
+  #ingredients .ingredient2-image {
+    position: relative; }
+  #ingredients .underlined-heading {
+    position: absolute;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #966589;
+    text-decoration: none;
+    left: 1vh;
+    top: 19vh;
+    background-color: #FFF;
+    width: 58.25vh;
+    height: 15vh;
+    text-align: center;
+    padding-top: 5vh; }
 
 /*# sourceMappingURL=app.css.map */
