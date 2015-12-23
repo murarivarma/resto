@@ -51,50 +51,53 @@ time, mark, audio, video {
     top: 32.3em;
     left: 76em; }
 
-#about .about-container {
-  max-height: 54em;
-  position: relative; }
-  #about .about-container .about-row {
-    height: 54em; }
-    #about .about-container .about-row .about-data-col {
-      height: 100%; }
-      #about .about-container .about-row .about-data-col h5 {
-        position: absolute;
-        font-family: "Great Vibes", cursive;
-        font-size: 60px;
-        color: #966589;
-        top: 26%;
-        left: 30%; }
-      #about .about-container .about-row .about-data-col h6 {
-        position: absolute;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2em;
-        font-weight: 700;
-        text-transform: uppercase;
-        top: 37%;
-        left: 33%; }
-        #about .about-container .about-row .about-data-col h6 sup {
-          font-weight: 500; }
-      #about .about-container .about-row .about-data-col p {
-        position: absolute;
-        font-family: 'Dancing Script', cursive;
-        font-size: 31px;
-        font-weight: 120;
-        line-height: 1.6em;
-        font-style: italic;
-        color: #73848e;
-        top: 48%;
-        left: 5%; }
-    #about .about-container .about-row .about-image-col {
-      height: 100%; }
-      #about .about-container .about-row .about-image-col .about-orange-image {
-        position: absolute;
-        left: 14.5vh;
-        bottom: 11vh; }
-      #about .about-container .about-row .about-image-col .about-blueberry-image {
-        position: absolute;
-        bottom: 38vh;
-        right: 0vh; }
+#about {
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #about .about-container {
+    max-height: 54em;
+    position: relative; }
+    #about .about-container .about-row {
+      height: 54em; }
+      #about .about-container .about-row .about-data-col {
+        height: 100%; }
+        #about .about-container .about-row .about-data-col h5 {
+          position: absolute;
+          font-family: "Great Vibes", cursive;
+          font-size: 60px;
+          color: #966589;
+          top: 26%;
+          left: 30%; }
+        #about .about-container .about-row .about-data-col h6 {
+          position: absolute;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 2em;
+          font-weight: 700;
+          text-transform: uppercase;
+          top: 37%;
+          left: 33%; }
+          #about .about-container .about-row .about-data-col h6 sup {
+            font-weight: 500; }
+        #about .about-container .about-row .about-data-col p {
+          position: absolute;
+          font-family: 'Dancing Script', cursive;
+          font-size: 31px;
+          font-weight: 120;
+          line-height: 1.6em;
+          font-style: italic;
+          color: #73848e;
+          top: 48%;
+          left: 5%; }
+      #about .about-container .about-row .about-image-col {
+        height: 100%; }
+        #about .about-container .about-row .about-image-col .about-orange-image {
+          position: absolute;
+          left: 14.5vh;
+          bottom: 11vh; }
+        #about .about-container .about-row .about-image-col .about-blueberry-image {
+          position: absolute;
+          bottom: 38vh;
+          right: 0vh; }
 
 #recipes {
   overflow-x: hidden;
@@ -118,102 +121,151 @@ time, mark, audio, video {
     text-align: center;
     padding-top: 5vh; }
 
-#services .row {
-  height: 520px;
-  padding-top: 4em;
-  padding-right: 0em;
-  padding-left: 1em;
-  width: 100%; }
-#services h1 {
-  font-family: "Great Vibes", cursive;
-  color: #a8829e;
-  font-weight: 400;
-  font-size: 60px;
-  text-align: center;
-  line-height: 4em; }
-#services h4 {
-  font-family: 'nevis-Bold', sans-serif;
-  font-size: 42px;
-  font-weight: bolder;
-  color: #23292c;
-  text-transform: uppercase;
-  margin-top: -2em;
-  text-align: center; }
-#services h2 {
-  text-transform: uppercase;
-  font-family: 'nevis-Bold', sans-serif;
-  font-size: 24px;
-  color: #a8829e;
-  font-weight: bold;
-  margin-top: 7em;
-  text-align: center; }
-#services p {
-  font-size: 16px;
-  color: #73848e;
-  line-height: 30px;
-  text-align: center;
-  font-family: 'Poiret One', cursive; }
-#services .zoom-effect-container {
-  float: left;
-  position: relative;
-  width: 230px;
-  height: 210px;
-  margin: 0 auto;
-  margin-left: 5em;
-  overflow: hidden; }
-#services .image-card {
-  position: absolute;
-  top: 0;
-  left: 0; }
-#services .image-card img {
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease; }
-#services .zoom-effect-container:hover .image-card img {
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08); }
-
-#reservation .container-all {
-  position: relative; }
-#reservation .row {
-  height: 75vh;
-  background-image: url(../images/reservation.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-  #reservation .row .stylish-button {
-    position: absolute;
-    top: 22vh;
-    left: 29vw;
-    display: inline-block;
-    padding: 60px 70px 70px;
-    background-color: #FFF;
-    position: relative;
-    color: #23323a;
-    width: 36vw;
-    height: 29vh;
+#services {
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #services .row {
+    height: 520px;
+    padding-top: 4em;
+    padding-right: 0em;
+    padding-left: 1em;
+    width: 100%; }
+  #services h1 {
+    font-family: "Great Vibes", cursive;
+    color: #a8829e;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    line-height: 4em; }
+  #services h4 {
+    font-family: 'nevis-Bold', sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+    color: #23292c;
+    text-transform: uppercase;
+    margin-top: -2em;
     text-align: center; }
-    #reservation .row .stylish-button:hover {
-      background-color: #966589; }
-      #reservation .row .stylish-button:hover h6, #reservation .row .stylish-button:hover h4 {
-        color: #FFF; }
-    #reservation .row .stylish-button h6 {
+  #services h2 {
+    text-transform: uppercase;
+    font-family: 'nevis-Bold', sans-serif;
+    font-size: 24px;
+    color: #a8829e;
+    font-weight: bold;
+    margin-top: 7em;
+    text-align: center; }
+  #services p {
+    font-size: 16px;
+    color: #73848e;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Poiret One', cursive; }
+  #services .zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 230px;
+    height: 210px;
+    margin: 0 auto;
+    margin-left: 5em;
+    overflow: hidden; }
+  #services .image-card {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  #services .image-card img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease; }
+  #services .zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08); }
+
+#reservation {
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #reservation .container-all {
+    position: relative; }
+  #reservation .row {
+    height: 75vh;
+    background-image: url(../images/reservation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    #reservation .row .stylish-button {
+      position: absolute;
+      top: 22vh;
+      left: 29vw;
       display: inline-block;
-      font-family: "Great Vibes", cursive;
-      font-size: 60px;
-      color: #a8829e;
-      text-transform: none;
+      padding: 60px 70px 70px;
+      background-color: #FFF;
       position: relative;
-      padding-right: 5px;
-      padding-left: 5px;
-      margin-top: -2vh;
-      border-bottom: 1px solid #a8829e;
-      padding-bottom: 0px;
-      line-height: 4.5vh; }
-    #reservation .row .stylish-button h4 {
-      font-family: 'nevis-Bold', sans-serif;
-      font-size: 42px;
-      font-weight: bold;
-      color: #23292c;
-      letter-spacing: 0.075em;
-      text-transform: uppercase; }
+      color: #23323a;
+      width: 36vw;
+      height: 29vh;
+      text-align: center; }
+      #reservation .row .stylish-button:hover {
+        background-color: #966589; }
+        #reservation .row .stylish-button:hover h6, #reservation .row .stylish-button:hover h4 {
+          color: #FFF; }
+      #reservation .row .stylish-button h6 {
+        display: inline-block;
+        font-family: "Great Vibes", cursive;
+        font-size: 60px;
+        color: #a8829e;
+        text-transform: none;
+        position: relative;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-top: -2vh;
+        border-bottom: 1px solid #a8829e;
+        padding-bottom: 0px;
+        line-height: 4.5vh; }
+      #reservation .row .stylish-button h4 {
+        font-family: 'nevis-Bold', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+        color: #23292c;
+        letter-spacing: 0.075em;
+        text-transform: uppercase; }
+
+#menu {
+  background-image: url(../images/menu-background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 150vh; }
+  #menu .nav-pills > li {
+    background-color: #808080; }
+  #menu .row {
+    width: 100%; }
+    #menu .row h6 {
+      text-align: left;
+      color: #FFF;
+      font-family: "Merriweather", serif;
+      font-size: 2em;
+      font-weight: 700; }
+    #menu .row span {
+      text-align: left;
+      color: #FFF;
+      font-family: "Merriweather", serif;
+      font-size: 1em;
+      font-weight: 400; }
+    #menu .row .food-price {
+      text-align: right; }
+    #menu .row .food-details {
+      position: relative; }
+      #menu .row .food-details .price {
+        position: absolute;
+        right: 6vh; }
+    #menu .row .food {
+      margin-top: 12vh; }
+  #menu h1 {
+    color: #FFF;
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.5em;
+    padding-top: 10vh; }
+    #menu h1 span {
+      color: #e1560e;
+      font-family: "Great Vibes", cursive; }
 
 /*# sourceMappingURL=app.css.map */
