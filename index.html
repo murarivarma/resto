@@ -45,7 +45,7 @@
             <li><a href="#recipes">Ingredients</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#reservation">Reservations</a></li>
-            <li><a href="#menu">Menu</a></li>
+            <li><a href="#our-menu">Menu</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -185,7 +185,27 @@
         </div>
       </div>
     </section>
-    <section id="menu">
+    <section id="our-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 our-menu-left">
+            <img src="images/our-menu-img.jpg" alt="Our Menu Image" class="our-menu-left-image">
+            <a class="image-over-button" href="#our-menu" title="button" target="_self">
+              <h6>Our</h6>
+              <h4>Menu</h4>
+            </a>
+          </div>
+          <div class="col-sm-offset-1 col-md-5 our-menu-right">
+            <h1>Delicious</h1>
+            <h4>Dishes</h4>
+            <p>Steamed rice cakes, made with lentils or other pulses. Pictured is vegetable curry served with a soft bread roll.</p>
+            <button type="button" class="btn btn-outline full-menu-collapse" data-toggle="collapse" data-target="#menu">View full menu</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Collapsing Menu starts here -->
+    <div id="menu" class="collapse">
       <ul class="nav nav-pills">
        <li class="active"><a data-toggle="pill" href="#breakfast"><img src="images/breakfast.png" alt="Breakfast"></a></li>
        <li><a data-toggle="pill" href="#lunch"><img src="images/lunch.png" alt="Lunch"></a></li>
@@ -424,7 +444,8 @@
 
        </div>
      </div>
-    </section>
+   </div>
+   <!-- Collapsing Menu ends here -->
     <!-- Menu section end -->
     <script>
       $(document).ready(function() {

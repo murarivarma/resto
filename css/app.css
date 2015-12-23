@@ -80,7 +80,7 @@ time, mark, audio, video {
             font-weight: 500; }
         #about .about-container .about-row .about-data-col p {
           position: absolute;
-          font-family: 'Dancing Script', cursive;
+          font-family: "Dancing Script", cursive;
           font-size: 31px;
           font-weight: 120;
           line-height: 1.6em;
@@ -195,7 +195,6 @@ time, mark, audio, video {
       display: inline-block;
       padding: 60px 70px 70px;
       background-color: #FFF;
-      position: relative;
       color: #23323a;
       width: 36vw;
       height: 29vh;
@@ -210,7 +209,6 @@ time, mark, audio, video {
         font-size: 60px;
         color: #a8829e;
         text-transform: none;
-        position: relative;
         padding-right: 5px;
         padding-left: 5px;
         margin-top: -2vh;
@@ -224,6 +222,86 @@ time, mark, audio, video {
         color: #23292c;
         letter-spacing: 0.075em;
         text-transform: uppercase; }
+
+#our-menu {
+  height: 98.5vh;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  #our-menu .our-menu-left .our-menu-left-image {
+    margin-top: 14vh;
+    position: relative; }
+  #our-menu .our-menu-left .image-over-button {
+    position: absolute;
+    top: 44%;
+    left: 31%;
+    display: inline-block;
+    background-color: rgba(35, 41, 44, 0.9);
+    color: #23323a;
+    width: 29vh;
+    height: 29vh;
+    text-align: center;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease; }
+    #our-menu .our-menu-left .image-over-button:hover {
+      -webkit-transform: scale(1.08);
+      transform: scale(1.08); }
+  #our-menu .our-menu-left h6 {
+    display: inline-block;
+    margin-top: 10vh;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #a8829e;
+    text-decoration: none;
+    line-height: 0.5vh;
+    border-bottom: 1px solid #a8829e;
+    padding-bottom: 2.5vh; }
+  #our-menu .our-menu-left h4 {
+    font-family: 'nevis-Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    text-align: center; }
+  #our-menu .our-menu-right {
+    text-align: center; }
+    #our-menu .our-menu-right h1 {
+      display: inline-block;
+      margin-top: 28vh;
+      font-family: "Great Vibes", cursive;
+      font-weight: 400;
+      font-size: 60px;
+      color: #a8829e;
+      text-decoration: none;
+      background-color: #FFF;
+      line-height: 4.5vh;
+      border-bottom: 1px solid #a8829e;
+      padding-bottom: 0px; }
+    #our-menu .our-menu-right h4 {
+      font-family: 'nevis-Bold', sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+      color: #23292c;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+      text-align: center; }
+    #our-menu .our-menu-right p {
+      text-align: center;
+      font-family: "Dancing Script", cursive;
+      font-size: 31px;
+      font-weight: 120;
+      line-height: 1.6em;
+      font-style: italic;
+      color: #73848e; }
+    #our-menu .our-menu-right button {
+      text-transform: uppercase;
+      padding: 3vh 8vh;
+      margin-top: 4vh;
+      letter-spacing: 0.2em;
+      font-weight: bold;
+      border: 2px solid black;
+      background-color: #FFF; }
 
 #menu {
   background-image: url(../images/menu-background-image.jpg);

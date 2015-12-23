@@ -1,0 +1,100 @@
+#our-menu {
+  height: 98.5vh;
+  // border-top: 1px solid red;
+  // border-bottom: 1px solid red;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  .our-menu-left {
+    .our-menu-left-image {
+      margin-top: 14vh;
+      position: relative;
+    }
+
+    .image-over-button {
+      position: absolute;
+      top: 44%;
+      left: 31%;
+      display: inline-block;
+      background-color: rgba(35, 41, 44, 0.9);
+      color: #23323a;
+      width: 29vh;
+      height: 29vh;
+      text-align: center;
+      -webkit-transition: 0.4s ease;
+      transition: 0.4s ease;
+
+      &:hover {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+      }
+    }
+
+    h6 {
+      display: inline-block;
+      margin-top: 10vh;
+      font-family: $welcome-about-font;
+      font-weight: 400;
+      font-size: 60px;
+      color: $secondary-heading-color;
+      text-decoration: none;
+      line-height: 0.5vh;
+      border-bottom: 1px solid $secondary-heading-color;
+      padding-bottom: 2.5vh;
+    }
+    h4 {
+      font-family: 'nevis-Bold', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      color: $text-white-color;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+
+  .our-menu-right {
+    text-align: center;
+    h1 {
+      display: inline-block;
+      margin-top: 28vh;
+      font-family: $welcome-about-font;
+      font-weight: 400;
+      font-size: 60px;
+      color: $secondary-heading-color;
+      text-decoration: none;
+      background-color: $text-white-color;
+      line-height: 4.5vh;
+      border-bottom: 1px solid $secondary-heading-color;
+      padding-bottom: 0px;
+    }
+    h4 {
+      //margin-top: 13vh;
+      font-family: 'nevis-Bold', sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+      color: #23292c;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-family: $dancing-font;
+      font-size: 31px;
+      font-weight: 120;
+      line-height: 1.6em;
+      font-style: italic;
+      color: $primary-text-color;
+    }
+    button {
+      text-transform: uppercase;
+      padding: 3vh 8vh;
+      margin-top: 4vh;
+      letter-spacing: 0.2em;
+      font-weight: bold;
+      border: 2px solid black;
+      background-color: $text-white-color;
+    }
+  }
+}
