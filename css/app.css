@@ -96,25 +96,80 @@ time, mark, audio, video {
         bottom: 38vh;
         right: 0vh; }
 
-#ingredients {
+#recipes {
   overflow-x: hidden;
-  overflow-y: hidden;
-  height: 451.667px; }
-  #ingredients .ingredient2-image {
+  overflow-y: hidden; }
+  #recipes .recipes-container {
     position: relative; }
-  #ingredients .underlined-heading {
+  #recipes img {
+    height: 451.667px; }
+  #recipes h6 {
     position: absolute;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 60px;
     color: #966589;
     text-decoration: none;
-    left: 1vh;
-    top: 19vh;
+    left: 33.9vw;
+    top: 13vw;
     background-color: #FFF;
     width: 58.25vh;
     height: 15vh;
     text-align: center;
     padding-top: 5vh; }
+
+#services .row {
+  height: 520px;
+  padding-top: 4em;
+  padding-right: 0em;
+  padding-left: 1em;
+  width: 100%; }
+#services h1 {
+  font-family: "Great Vibes", cursive;
+  color: #966589;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  line-height: 4em; }
+#services h4 {
+  font-family: 'nevis-Bold', sans-serif;
+  font-size: 42px;
+  font-weight: bolder;
+  color: #23292c;
+  text-transform: uppercase;
+  margin-top: -2em;
+  text-align: center; }
+#services h2 {
+  text-transform: uppercase;
+  font-family: 'nevis-Bold', sans-serif;
+  font-size: 24px;
+  color: #966589;
+  font-weight: bold;
+  margin-top: 7em;
+  text-align: center; }
+#services p {
+  font-size: 16px;
+  color: #73848e;
+  line-height: 30px;
+  text-align: center;
+  font-family: 'Poiret One', cursive; }
+#services .zoom-effect-container {
+  float: left;
+  position: relative;
+  width: 230px;
+  height: 210px;
+  margin: 0 auto;
+  margin-left: 5em;
+  overflow: hidden; }
+#services .image-card {
+  position: absolute;
+  top: 0;
+  left: 0; }
+#services .image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease; }
+#services .zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08); }
 
 /*# sourceMappingURL=app.css.map */
