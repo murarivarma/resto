@@ -108,7 +108,7 @@ time, mark, audio, video {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 60px;
-    color: #966589;
+    color: #a8829e;
     text-decoration: none;
     left: 33.9vw;
     top: 13vw;
@@ -126,7 +126,7 @@ time, mark, audio, video {
   width: 100%; }
 #services h1 {
   font-family: "Great Vibes", cursive;
-  color: #966589;
+  color: #a8829e;
   font-weight: 400;
   font-size: 60px;
   text-align: center;
@@ -143,7 +143,7 @@ time, mark, audio, video {
   text-transform: uppercase;
   font-family: 'nevis-Bold', sans-serif;
   font-size: 24px;
-  color: #966589;
+  color: #a8829e;
   font-weight: bold;
   margin-top: 7em;
   text-align: center; }
@@ -171,5 +171,49 @@ time, mark, audio, video {
 #services .zoom-effect-container:hover .image-card img {
   -webkit-transform: scale(1.08);
   transform: scale(1.08); }
+
+#reservation .container-all {
+  position: relative; }
+#reservation .row {
+  height: 75vh;
+  background-image: url(../images/reservation.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #reservation .row .stylish-button {
+    position: absolute;
+    top: 22vh;
+    left: 29vw;
+    display: inline-block;
+    padding: 60px 70px 70px;
+    background-color: #FFF;
+    position: relative;
+    color: #23323a;
+    width: 36vw;
+    height: 29vh;
+    text-align: center; }
+    #reservation .row .stylish-button:hover {
+      background-color: #966589; }
+      #reservation .row .stylish-button:hover h6, #reservation .row .stylish-button:hover h4 {
+        color: #FFF; }
+    #reservation .row .stylish-button h6 {
+      display: inline-block;
+      font-family: "Great Vibes", cursive;
+      font-size: 60px;
+      color: #a8829e;
+      text-transform: none;
+      position: relative;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin-top: -2vh;
+      border-bottom: 1px solid #a8829e;
+      padding-bottom: 0px;
+      line-height: 4.5vh; }
+    #reservation .row .stylish-button h4 {
+      font-family: 'nevis-Bold', sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+      color: #23292c;
+      letter-spacing: 0.075em;
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=app.css.map */
