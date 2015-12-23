@@ -47,11 +47,23 @@
           position: absolute;
           left: 14.5vh;
           bottom: 11vh;
+          -webkit-transition: 0.4s ease;
+          transition: 0.4s ease;
+          &:hover {
+            -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+          }
         }
         .about-blueberry-image {
           position: absolute;
           bottom: 38vh;
           right: 0vh;
+          -webkit-transition: 0.4s ease;
+          transition: 0.4s ease;
+          &:hover {
+            -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+          }
         }
       }
     }

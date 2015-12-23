@@ -93,11 +93,21 @@ time, mark, audio, video {
         #about .about-container .about-row .about-image-col .about-orange-image {
           position: absolute;
           left: 14.5vh;
-          bottom: 11vh; }
+          bottom: 11vh;
+          -webkit-transition: 0.4s ease;
+          transition: 0.4s ease; }
+          #about .about-container .about-row .about-image-col .about-orange-image:hover {
+            -webkit-transform: scale(1.08);
+            transform: scale(1.08); }
         #about .about-container .about-row .about-image-col .about-blueberry-image {
           position: absolute;
           bottom: 38vh;
-          right: 0vh; }
+          right: 0vh;
+          -webkit-transition: 0.4s ease;
+          transition: 0.4s ease; }
+          #about .about-container .about-row .about-image-col .about-blueberry-image:hover {
+            -webkit-transform: scale(1.08);
+            transform: scale(1.08); }
 
 #recipes {
   overflow-x: hidden;
@@ -302,6 +312,9 @@ time, mark, audio, video {
       font-weight: bold;
       border: 2px solid black;
       background-color: #FFF; }
+      #our-menu .our-menu-right button:hover {
+        background-color: rgba(35, 41, 44, 0.9);
+        color: #FFF; }
 
 #menu {
   background-image: url(../images/menu-background-image.jpg);

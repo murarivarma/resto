@@ -95,6 +95,10 @@
       font-weight: bold;
       border: 2px solid black;
       background-color: $text-white-color;
+      &:hover {
+        background-color: rgba(35, 41, 44, 0.9);
+        color: $text-white-color;
+      }
     }
   }
 }
